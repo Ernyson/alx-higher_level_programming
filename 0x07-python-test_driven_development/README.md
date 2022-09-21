@@ -1,0 +1,1 @@
+Python - Test-driven development- General. 1.Why Python programming is awesome 2. 0x07-python-test_driven_developments an interactive test 3. Why tests are important 4. How to write Docstrings to create tests 5. How to write documentation for each module and function 5. What are the basic option flags to create tests 6.How to find edge cases What
