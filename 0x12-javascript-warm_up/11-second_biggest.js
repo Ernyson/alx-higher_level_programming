@@ -1,10 +1,9 @@
 #!/usr/bin/node
-
-const n = parseInt(process.argv[2], 10);
-function factorial (n) {
-  if (isNaN(n) || n === 0) {
-    return (1);
-  }
-  return (n * factorial(n - 1));
+const myVar = process.argv.length;
+if (myVar <= 3) {
+  console.log(0);
+} else {
+  const args = process.argv.slice(2).map(x => parseInt(x));
+  const sorted = args.sort((a, b) => a < b);
+  console.log(sorted[1]);
 }
-console.log(factorial(n));
